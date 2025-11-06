@@ -33,3 +33,14 @@ npm install
 # Start development server
 npm run dev
 ```
+## How It Works
+
+The Meals Page fetches meal data using a custom HTTP hook and displays them as interactive meal items.
+
+The Cart allows users to add/remove meals and shows a live total price.
+
+The Checkout Page collects customer information and sends order data to the backend.
+
+Global state is handled with Context API and useReducer, managing cart items and user progress efficiently.
+
+Error messages and loading states are displayed dynamically to guide the user.
