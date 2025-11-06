@@ -28,7 +28,7 @@ export default function Checkout() {
   const userProgressCtx = use(UserProgressContext);
 
   const { data, error, sendRequest, clearData } = useHttp(
-    "http://localhost:3000/orders",
+    "https://react-food-order-app-jt7f.onrender.com/orders",
     requestData
   );
 
